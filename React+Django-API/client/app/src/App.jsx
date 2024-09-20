@@ -6,11 +6,11 @@ function App() {
 
   return (
     <>
-        <h1>JJK Warehouse</h1>
+        <h1>Simple Book Store</h1>
         <div>
-            <input type={'text'} placeholder={'Character Name....'}/>
-            <input type={'text'} placeholder={'JJK Apparel....'}/>
-            <button type='submit' className="btn btn-primary">Search</button>
+            <input type={'text'} placeholder={'Book Title....'}/>
+            <input type={'date'} placeholder={'Release Date....'}/>
+            <button type='submit' className="btn btn-primary">Submit</button>
         </div>
     </>
   )
